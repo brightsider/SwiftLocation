@@ -27,3 +27,8 @@ xcuserdata/
 *.xcscmblueprint
 
 .DS_Store
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
