@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 import PackageDescription
 let package = Package(
     name: "SwiftLocation",
@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftLocation",
-            dependencies: [],
+            dependencies: ["SwiftyJSON"], 
             path: "Sources"),
         .testTarget(
             name: "SwiftLocationTests",
