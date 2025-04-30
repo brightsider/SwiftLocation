@@ -7,7 +7,9 @@ let package = Package(
             name: "SwiftLocation",
             targets: ["SwiftLocation"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.2"),
+    ],
     targets: [
         .target(
             name: "SwiftLocation",
